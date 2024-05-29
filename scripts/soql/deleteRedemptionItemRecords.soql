@@ -1,0 +1,1 @@
+SELECT Id FROM FieloPLT__RedemptionItem__c WHERE FieloPLT__Redemption__r.FieloPLT__Member__r.FieloPLT__Status__c IN ('Submitted for Approval','Rejected','Pending User','Blocked','Bloqueado','Opt-out','Merge Pending','Merged','Banned','ACTUVE','Baned','Anonymized') LIMIT 100000

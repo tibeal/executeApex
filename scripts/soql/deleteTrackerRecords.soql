@@ -1,0 +1,1 @@
+SELECT Id FROM FieloPLT__Tracker__c WHERE FieloPLT__MissionMember__c = null LIMIT 100000

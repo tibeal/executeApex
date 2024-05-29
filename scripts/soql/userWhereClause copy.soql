@@ -1,0 +1,1 @@
+IsPortalEnabled = true AND Username like '%@pits.com' AND LastLogindate = today

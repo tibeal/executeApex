@@ -1,0 +1,1 @@
+SELECT Id FROM FieloPLT__Point__c WHERE FieloPLT__Balance__c = 0 AND CreatedDate < LAST_N_MONTHS:6 ORDER BY CreatedDate LIMIT 100000

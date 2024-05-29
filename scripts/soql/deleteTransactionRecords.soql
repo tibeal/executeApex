@@ -1,0 +1,10 @@
+SELECT Id FROM FieloPLT__Transaction__c
+WHERE
+    Puntos__c > 0
+    AND CreatedDate < LAST_N_MONTHS:6
+    AND ID NOT IN (
+        SELECT FieloPLT__Transaction__c
+        FROM FieloPLT__Point__c
+        WHERE FieloPLT__PointType__c = 'a0Y3f000003MVDyEAO'
+    )
+ORDER BY CreatedDate LIMIT 100000

@@ -1,0 +1,10 @@
+select
+    Id,
+    FieloPLT__Member__c,
+    FieloPLT__PointType__c,
+    FieloPLT__ExpirationDate__c,
+    FieloPLT__Rule__c,
+    FieloPLT__Transaction__c,
+    FieloPLT__ChallengeReward__c,
+    FieloPLT__Balance__c
+from FieloPLT__Point__c
